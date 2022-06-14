@@ -16,7 +16,7 @@ const SomeText = () => {
   return (
     <Grid gap={2}>
       <Heading as="h2" fontSize={{ base: "lg", sm: "3xl" }}>
-        Hello
+        Boa noite, estranho!
       </Heading>
 
       <Box
@@ -24,9 +24,7 @@ const SomeText = () => {
         padding={4}
         borderRadius={4}
       >
-        <Box fontSize={textSize}>
-          This is a Next.js app with Chakra-UI and TypeScript setup.
-        </Box>
+        <Box fontSize={textSize}>Eu desenvolvo aplicações web e mobile.</Box>
       </Box>
     </Grid>
   );

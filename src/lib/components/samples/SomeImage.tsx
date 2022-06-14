@@ -18,10 +18,10 @@ const SomeImage = () => {
         marginX="auto"
       >
         <Image
-          src="/Launching-amico.svg"
+          src="/dev.svg"
           width={400}
           height={400}
-          alt="Launching Illustration"
+          alt="Pessoa Programando"
         />
       </MotionBox>
       <Text textAlign="center" fontSize="xs">
