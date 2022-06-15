@@ -6,6 +6,8 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 
+import { getCurrentDayTime } from "../../helpers/getTime";
+
 const SomeText = () => {
   const { colorMode } = useColorMode();
   const textSize = useBreakpointValue({
@@ -16,7 +18,7 @@ const SomeText = () => {
   return (
     <Grid gap={2}>
       <Heading as="h2" fontSize={{ base: "lg", sm: "3xl" }}>
-        Boa noite, estranho!
+        {getCurrentDayTime()}, estranho!
       </Heading>
 
       <Box
